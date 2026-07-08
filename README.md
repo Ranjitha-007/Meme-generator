@@ -1,2 +1,2 @@
 # Meme-generator
-A simple and interactive Meme Generator built with React that allows users to create custom memes by adding top and bottom text to random meme templates fetched from an API.
+This Meme Generator is a web application developed using React. It retrieves meme templates from an external API and displays a random meme image whenever the user requests one. Users can personalize the meme by entering custom top and bottom text, which is dynamically rendered on the image. The project focuses on implementing React Hooks (useState, useEffect), handling form inputs, API fetching, conditional rendering, and responsive UI design.
