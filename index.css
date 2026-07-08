@@ -1,0 +1,107 @@
+body{
+  margin:0;
+  font-family: 'Trebuchet MS', Helvetica, sans-serif;
+  background-color: #FAFAF8;
+}
+header{
+  display:flex;
+  gap:11px;
+  background: linear-gradient(to right, #67228a, #a626d3);
+  box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.10), 0px 1px 2px 2px 0px rgba(0,0,0,0.06);
+}
+.header-img{
+  margin-left: 10px;
+  margin-top: 5px;
+  width: 80px;
+  height: 65px;
+}
+header h1{
+  color:white;
+  font-weight: 400;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  gap: 15px;           
+  max-width: 500px;    
+  margin: 0 auto;      
+}
+.form-group{
+  display:flex;
+  flex-direction:row;
+}
+.field{
+  display:flex;
+  flex-direction:column;
+  gap:4px;
+  margin-right:20px;
+}
+.textbox{
+  width:200px;
+  height:30px;
+  border-radius:5px;
+  border-color:grey;
+  border:1px solid grey;
+}
+.label{
+  color:black;
+  font-weight: bold;
+  margin-right:120px;
+  font-size:18.5px;
+}
+.button{
+ width: 500px;
+  height: 45px;
+  font-size: 16px;
+  font-weight: 500;
+  color: white;
+  background: linear-gradient(to right, #67228a, #a626d3);
+  border-radius: 8px;
+  border: none; 
+  cursor: pointer;
+}
+.meme {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-top: 36px;
+}
+
+.meme--image {
+    max-width: 100%;
+    border-radius: 3px;
+}
+
+.meme--text {
+    position: absolute;
+    /* Remove left: 50% and transform: translateX(-50%) */
+    left: 0;
+    right: 0;
+    margin: 15px auto;
+    
+    width: 80%;
+    text-align: center;
+    font-family: impact, sans-serif;
+    font-size: 2em;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 1px;
+    text-shadow:
+        2px 2px 0 #000,
+        -2px -2px 0 #000,
+        2px -2px 0 #000,
+        -2px 2px 0 #000,
+        0 2px 0 #000,
+        2px 0 0 #000,
+        0 -2px 0 #000,
+        -2px 0 0 #000,
+        2px 2px 5px rgba(0,0,0,0.5);
+}
+.top {
+    top: 0;
+}
+
+.bottom {
+    bottom: 0;
+}
